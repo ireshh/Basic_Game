@@ -30,7 +30,7 @@ coin_img = pygame.image.load("coin.png")
 try:
     door1_img = pygame.image.load("door1.png")
     door2_img = pygame.image.load("door2.png")
-except FileNotfoundError:
+except FileNotFoundError:
     door1_img = pygame.image.load("door.png")
     door2_img = pygame.image.load("door.png")
 
