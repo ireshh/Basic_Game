@@ -27,8 +27,12 @@ red = (255, 0, 0)
 monster_img = pygame.image.load("monster.png")
 robot_img = pygame.image.load("robot.png")
 coin_img = pygame.image.load("coin.png")
-door1_img = pygame.image.load("door1.png")
-door2_img = pygame.image.load("door2.png")
+try:
+    door1_img = pygame.image.load("door1.png")
+    door2_img = pygame.image.load("door2.png")
+except FileNotfoundError:
+    door1_img = pygame.image.load("door.png")
+    door2_img = pygame.image.load("door.png")
 
 class Player(pygame.sprite.Sprite):
     def __init__(self, x, y):
