@@ -1,4 +1,4 @@
-# Night Excursions
+# Nyxclipse
 You find yourself running from a relentless monster lurking in the night.
 How did you get here? No Idea, but you are here now in this dimension where you can jump boundaries to the other side.
 Your need to collect all your coins scattered across this dimension and run as fast as you can to the door to stay alive.
