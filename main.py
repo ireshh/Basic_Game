@@ -1,6 +1,6 @@
 # Complete your game here
 """
-Night Excursions
+Nyxclipse
 
 You find yourself running from a relentless monster lurking in the night.
 How did you get here? No Idea, but you are here now in this dimension where you can jump boundaries to the other side.
@@ -19,7 +19,7 @@ pygame.init()
 
 display_width, display_height = 800, 800
 display = pygame.display.set_mode((display_width, display_height))
-pygame.display.set_caption("Night Excursions")
+pygame.display.set_caption("Nyxclipse")
 
 black = (0, 0, 0)
 red = (255, 0, 0)
